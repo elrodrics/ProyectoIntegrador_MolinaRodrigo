@@ -2,3 +2,15 @@ img{
     width: 50px;
     margin-right: 10pt;
 }
+
+.bton{
+    display: flex;
+}
+
+.zoom{
+  transition: transform .2s; /* Animacion */
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
