@@ -1,7 +1,4 @@
 body{
     background: linear-gradient(to right, rgb(255, 226, 2), rgb(255, 0, 43));
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
+    margin: 0%;
 }
