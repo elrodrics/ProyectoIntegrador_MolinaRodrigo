@@ -1,0 +1,54 @@
+div{
+    margin-right: 0%;
+}
+
+#logoAP{
+    width: 150px;
+}
+
+img{
+    width: 50px;
+    margin-right: 10pt;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.log{
+    margin-right: 0%;
+    padding-top: 1%;
+    transition: transform .2s;
+}
+
+.log:hover{
+    transform:scale(0.95);
+}
+
+.bton{
+    display: flex;
+}
+
+.zoom{
+  transition: transform .2s; /* Animacion */
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+/*--- Vista del celular ---*/
+
+@media(max-width: 575px){ 
+    .container{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    
+    .redes img{
+        margin: 0.2em;
+    }
+}
+
