@@ -1,0 +1,13 @@
+
+div{
+    background-color: rgba(255, 242, 0, 0.128);
+    border-radius: 20px;
+    padding-top: 2%;
+    margin: 40px;
+    justify-content: center;
+}
+
+.skills{
+    padding-top: 1%;
+    justify-content: center;
+}
