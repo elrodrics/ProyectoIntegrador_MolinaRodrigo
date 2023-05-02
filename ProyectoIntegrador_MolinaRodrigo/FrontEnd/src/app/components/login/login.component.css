@@ -1,56 +1,42 @@
-div{
-    margin-right: 0%;
+.gradient-custom-2 {
+background: #fccb90;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 183, 0));
 }
 
-#logoAP{
-    width: 150px;
+.card{
+    background-color: rgba(17, 10, 1, 0.935);
+    border: #b4459300;
 }
 
-img{
-    width: 50px;
-    margin-right: 10pt;
-}
-.container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.bot{
+    position: absolute;
+    top: 3%;
+    padding-left: 2%;
 }
 
-.log{
-    margin-right: 0%;
-    padding-top: 1%;
-    transition: transform .2s;
+@media (min-width: 768px) {
+.gradient-form {
+height: 100vh !important;
+}
+}
+@media (min-width: 769px) {
+.gradient-custom-2 {
+border-top-right-radius: .3rem;
+border-bottom-right-radius: .3rem;
+}
 }
 
-.log:hover{
-    transform:scale(0.95);
-}
-
-.bton{
-    display: flex;
-}
-
-.zoom{
-  transition: transform .2s; /* Animacion */
-}
-
-.zoom:hover {
-    transform: scale(1.1);
-}
-
-/*--- Vista del celular ---*/
-
-@media(max-width: 575px){ 
+@media (min-width:425px){
     .container{
-        flex-direction: column;
-        display: flex;
-        align-items: center;
-    }
-    
-    .redes img{
-        margin: 0.2em;
+        padding-top: 500%;
     }
 }
+
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
 
@@ -88,8 +74,8 @@ img{
   box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
 }
 .btn:hover{  
-  background-color: #f09f25;
-  color: #000000;
+  background-color: #34280033;
+  color: #ffffff;
   box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
   transform:scale(1.04);
 }
